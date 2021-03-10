@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YourUchet</string>
+    <string name="score_name">Наименование счета</string>
+    <string name="score_sum">Сумма счета</string>
+    <string name="score_currency">Рубль</string>
+    <string name="b_history">История</string>
+    <string name="b_send_money">Перевести</string>
+    <string name="b_add_score">Добавить счет</string>
+    <string name="b_save_settings">Сохранить настрйки</string>
+    <string name="tv_curent_currency">Текущая валюта по умолчанию</string>
+    <string name="b_delete_score">Удалить счет</string>
+    <string name="b_settings_name">Настройки</string>
+    <string name="et_sum_debit_hint">Введите сумму перевода</string>
+    <string name="et_comment_hint">Комментарий</string>
+    <string name="et_score_name_hint">Наименование счета</string>
+    <string name="et_score_sum_hint">Сумма счета</string>
+    <string name="b_add_score_text">Добавить</string>
+</resources>

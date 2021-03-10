@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".transfer_window">
+    <Spinner
+        android:id="@+id/s_debit_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"/>
+    <Spinner
+        android:id="@+id/s_enrollment_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:id="@+id/et_sum_debit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:paddingBottom="@dimen/padding_for_all"
+        android:hint="@string/et_sum_debit_hint">
+
+    </EditText>
+    <Spinner
+        android:id="@+id/s_list_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+    </Spinner>
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_for_all"
+        android:hint="@string/et_comment_hint"/>
+    <Button
+        android:id="@+id/b_transder_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_send_money"/>
+
+</LinearLayout>

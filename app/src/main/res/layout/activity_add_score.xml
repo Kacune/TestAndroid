@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_for_all"
+    tools:context=".add_score">
+    <EditText
+        android:id="@+id/et_score_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="@string/et_score_name_hint">
+    </EditText>
+    <EditText
+        android:id="@+id/et_score_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:inputType="numberDecimal"
+        android:hint="@string/et_score_sum_hint">
+    </EditText>
+
+    <Button
+        android:id="@+id/b_add_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|end"
+        android:text="@string/b_add_score_text">
+    </Button>
+
+</LinearLayout>
